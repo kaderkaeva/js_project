@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.top-menu {
+    background: rgb(212, 194, 161);
+    min-height: 100px;
+}
+
+.cart-button {
+    background: rgb(53, 50, 50);
+    color: rgb(212, 194, 161);
+    padding: 15px 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 25px 1250px;
+}
+
+.goods-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.goods-item {
+    width: 250px;
+    height: 350px;
+    border: 2px solid rgb(53, 50, 50);
+    padding-top: 10px;
+    padding-left: 10px;
+}
